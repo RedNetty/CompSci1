@@ -1,5 +1,7 @@
 package com.jack.compsci.chaptersix;
 
+import java.util.ArrayList;
+
 public class Person {
     private String name;
     private String address;
