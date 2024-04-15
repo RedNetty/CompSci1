@@ -5,13 +5,13 @@ import java.util.stream.IntStream;
 public class Chapter6MainJC {
 
     public static void main(String[] args) {
-        Person jack = new Person("Jack", "108 John green place", 23, 6157149687L);
+        Person jack = new Person("Jack", "108 John place", 23, 6157149687L);
         Person aj = new Person("AJ", "1832 Addison Drive", 22, 6158372221L);
         Person tanner = new Person("Tanner", "102 Unknown Lane", 23, 9134828322L);
 
-        Car raceCar = new Car(2018, "Infiniti Q50"); //<- My car :)
+        Car raceCar = new Car(2018, "Infiniti Q50"); 
 
-        raceCar.setOwner(jack); //Added this for no reason other than it adds more to it.
+        raceCar.setOwner(jack); 
 
         IntStream.range(0, 5).forEach(iteration -> {
             raceCar.accelerate();
